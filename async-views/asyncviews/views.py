@@ -18,8 +18,8 @@ async def httpio_call_async():
     for num in range(1, 6):
         await asyncio.sleep(1)
         print(num)
-    async with httpx.AsyncClient as client:
-        r = await client.get('https://httpbin.org')
+#    async with httpx.AsyncClient as client:
+#        r = await client.get('https://httpbin.org')
 
 
 async def async_view(request):
